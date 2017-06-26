@@ -1,4 +1,4 @@
-case platform
+case node['platform']
 when 'mac_os_x'
   set['sbt-extras']['user_home_basedir']       = '/Users'
 else # usual base directory on unix systems:

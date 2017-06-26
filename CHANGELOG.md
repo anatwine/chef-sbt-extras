@@ -1,5 +1,7 @@
 # CHANGELOG for sbt-extras cookbook
 
+## v0.5.0
+
 ## v0.4.1 (2015-12-11)
 
 * [GH-33] Update default sbt-extras version to reach repo.typesafe.com
