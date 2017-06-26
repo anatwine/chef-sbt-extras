@@ -1,8 +1,8 @@
 case node['platform']
 when 'mac_os_x'
-  set['sbt-extras']['user_home_basedir']       = '/Users'
+  default['sbt-extras']['user_home_basedir']       = '/Users'
 else # usual base directory on unix systems:
-  set['sbt-extras']['user_home_basedir']       = '/home'
+  default['sbt-extras']['user_home_basedir']       = '/home'
 end
 
 default['sbt-extras']['download_url']          = 'https://raw.githubusercontent.com/paulp/sbt-extras/1203a8bd2f34f7adfa84b6408beb9a14de81c63d/sbt'

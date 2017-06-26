@@ -1,6 +1,12 @@
 # CHANGELOG for sbt-extras cookbook
 
+## v0.5.1
+
+* Fix Chef 14 deprecations.
+
 ## v0.5.0
+
+* Fix Chef 13 deprecation.
 
 ## v0.4.1 (2015-12-11)
 
